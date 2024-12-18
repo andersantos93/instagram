@@ -4,18 +4,22 @@
   grid-template-areas:
     "picture actions actions"
     "picture number number"
-    "picture name name"
-    "picture threads threads"
-    "picture description description"
-    "picture city city";
+    "picture name name";
   grid-gap: 20px;
-  padding: 30px;
+  padding: 40px;
 }
 
 #profile-picture {
   grid-area: picture;
+  margin-top: 25px;
   margin-right: 60px;
   align-self: center;
+}
+
+#profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 #profile-actions {
@@ -35,9 +39,14 @@
   border-radius: 8px;
   background-color: #363636;
   color: white;
-  padding: 10px;
+  padding: 7px;
   width: 101px;
   font-weight: bold;
+  margin-right: 3px;
+}
+
+#profile-actions svg {
+  align-self: center;
 }
 
 #profile-numbers {
@@ -47,26 +56,43 @@
   gap: 30px;
 }
 
-#profile-name {
-  grid-area: name;
+#profile-numbers .number {
+  font-weight: 500;
+  margin-right: 2px;
+}
+
+#profile-numbers .description {
+  font-size: 15px;
+}
+
+#profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#profile-name span {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 #profile-threads {
-  grid-area: threads;
+  border: none;
+  border-radius: 20px;
+  background-color: #363636;
+  color: white;
+  padding: 7px;
+  width: 71px;
+  font-size: 12px;
+  margin: 8px 0;
 }
 
-#profile-description {
-  grid-area: description;
+#profile-threads svg {
+  float: left;
+  margin-top: -2px;
+  margin-right: 3px;
 }
 
+#profile-description,
 #profile-city {
-  grid-area: city;
+  font-size: 14px;
 }
-
-#profile-picture img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-#profile-actions;
