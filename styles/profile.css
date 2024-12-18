@@ -96,3 +96,23 @@
 #profile-city {
   font-size: 14px;
 }
+
+#favorite-stories {
+  display: flex;
+  grid-auto-flow: row;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+#favorite-stories .item img {
+  width: 77px;
+  height: 77px;
+  border: 1px solid;
+  border-radius: 50%;
+  align-self: center;
+}
+
+#favorite-stories .item span {
+  display: block;
+}
