@@ -1,0 +1,72 @@
+#profile {
+  display: grid;
+  justify-content: center;
+  grid-template-areas:
+    "picture actions actions"
+    "picture number number"
+    "picture name name"
+    "picture threads threads"
+    "picture description description"
+    "picture city city";
+  grid-gap: 20px;
+  padding: 30px;
+}
+
+#profile-picture {
+  grid-area: picture;
+  margin-right: 60px;
+  align-self: center;
+}
+
+#profile-actions {
+  grid-area: actions;
+  display: flex;
+  gap: 5px;
+}
+
+#profile-actions span {
+  font-size: 19px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+#profile-actions button {
+  border: none;
+  border-radius: 8px;
+  background-color: #363636;
+  color: white;
+  padding: 10px;
+  width: 101px;
+  font-weight: bold;
+}
+
+#profile-numbers {
+  grid-area: number;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#profile-name {
+  grid-area: name;
+}
+
+#profile-threads {
+  grid-area: threads;
+}
+
+#profile-description {
+  grid-area: description;
+}
+
+#profile-city {
+  grid-area: city;
+}
+
+#profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#profile-actions;

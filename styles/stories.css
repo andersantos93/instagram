@@ -12,31 +12,6 @@
   text-align: center;
 }
 
-#side-menu {
-  display: flex;
-  flex-direction: column;
-  width: 245px;
-  padding: 25px;
-  gap: 30px;
-  border-right: 1px solid #262626;
-  position: fixed;
-}
-
-#side-menu .option {
-  position: relative;
-  cursor: pointer;
-}
-
-#side-menu .option:hover {
-  background-color: #1a1a1a;
-}
-
-#side-menu .option span {
-  position: absolute;
-  margin-top: 5px;
-  margin-left: 15px;
-}
-
 #stories {
   display: flex;
   flex-direction: row;
