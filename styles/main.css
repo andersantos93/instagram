@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #080404;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+svg {
+  color: white;
+}
+
+nav {
+  width: 245px;
+  float: left;
+}
+
+.avatar img {
+  width: 25px;
+  border-radius: 50%;
+}
+
+#side-menu {
+  display: flex;
+  flex-direction: column;
+  width: 245px;
+  padding: 25px;
+  gap: 30px;
+  border-right: 1px solid #262626;
+}
+
+#side-menu .option {
+  position: relative;
+  cursor: pointer;
+}
+
+#side-menu .option:hover {
+  background-color: #1a1a1a;
+}
+
+#side-menu .option span {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+#side-menu .avatar {
+  font-weight: 500;
+}
+
+#stories {
+  display: flex;
+}
