@@ -19,6 +19,15 @@ nav {
   float: left;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
 .avatar img {
   width: 25px;
   border-radius: 50%;
@@ -63,6 +72,7 @@ nav {
   padding: 25px;
   gap: 30px;
   border-right: 1px solid #262626;
+  position: fixed;
 }
 
 #side-menu .option {
@@ -93,6 +103,12 @@ nav {
   grid-auto-flow: row;
   justify-content: center;
   margin-top: 30px;
+}
+
+.post .divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #262626;
 }
 
 .post .profile {
