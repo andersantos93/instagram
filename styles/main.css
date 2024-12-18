@@ -73,10 +73,6 @@ nav {
   margin-left: 15px;
 }
 
-#side-menu .avatar {
-  font-weight: 500;
-}
-
 #stories {
   display: flex;
   flex-direction: row;
@@ -92,21 +88,76 @@ nav {
   margin-top: 30px;
 }
 
-.profile {
+.post .profile {
   display: flex;
 }
 
-.profile span {
+.post .profile span {
   margin-left: 10px;
   font-weight: 500;
   font-size: 14px;
 }
 
-.profile time {
+.post .profile time {
   margin-left: 5px;
 }
 
-.profile span,
+.post .profile span,
 time {
   align-self: center;
+}
+
+.post .reactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.post .reactions .option {
+  cursor: pointer;
+}
+
+.post .reactions .save {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.post .likes {
+  margin-top: 5px;
+}
+
+.post .likes span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.post .author {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-right: 8px;
+  float: left;
+}
+
+.post .description {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.post .description span:first-child {
+  font-size: 15px;
+}
+
+.post .description span:last-child {
+  font-size: 12px;
+  color: rgb(168, 168, 168, 1);
+}
+
+.post .comments,
+.add-comment {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(168, 168, 168, 1);
 }
