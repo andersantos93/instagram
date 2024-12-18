@@ -1,0 +1,104 @@
+#posts {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.post .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post .post-image img {
+  width: 468px;
+  height: 468px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.post .divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #262626;
+}
+
+.post .profile {
+  display: flex;
+}
+
+.post .profile span {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.post .profile time {
+  margin-left: 5px;
+}
+
+.post .profile span,
+time {
+  align-self: center;
+}
+
+.post .reactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.post .reactions .option {
+  cursor: pointer;
+}
+
+.post .reactions .save {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.post .likes {
+  margin-top: 5px;
+}
+
+.post .likes span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.post .author {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-right: 8px;
+  float: left;
+}
+
+.post .description {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.post .description span:first-child {
+  font-size: 15px;
+}
+
+.post .description span:last-child {
+  font-size: 12px;
+  color: rgb(168, 168, 168, 1);
+}
+
+.post .comments,
+.add-comment {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(168, 168, 168, 1);
+}
+
+.datetime {
+  font-size: 14px;
+  color: rgb(168, 168, 168, 1);
+}
