@@ -76,11 +76,6 @@ main {
   flex-direction: column;
 }
 
-#profile-name span {
-  font-size: 14px;
-  font-weight: 500;
-}
-
 #profile-threads {
   border: none;
   border-radius: 20px;

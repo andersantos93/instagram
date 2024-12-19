@@ -32,10 +32,7 @@ a {
 #side-menu .option {
   position: relative;
   cursor: pointer;
-}
-
-#side-menu .option:hover {
-  background-color: #1a1a1a;
+  display: inline;
 }
 
 #side-menu .option span {
