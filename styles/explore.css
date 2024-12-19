@@ -1,0 +1,25 @@
+main {
+  margin-left: 245px;
+}
+
+#explore {
+  display: grid;
+  justify-self: center;
+  gap: 4px;
+  row-gap: 0;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 40px;
+}
+
+.item img {
+  width: 311px;
+  height: 311px;
+}
+
+.item.big {
+  grid-row: span 2;
+}
+
+.item.big img {
+  height: 99.4%;
+}

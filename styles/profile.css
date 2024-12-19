@@ -2,6 +2,7 @@ main {
   margin-left: 245px;
 }
 
+/* Profile Grid */
 #profile {
   display: grid;
   justify-content: start;
@@ -151,6 +152,7 @@ main {
   color: #9da8a8;
 }
 
+/* Posts Grid - each row must have 3 columns with pictures */
 #posts {
   display: grid;
   justify-self: center;
