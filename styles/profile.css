@@ -96,6 +96,7 @@ main {
 #profile-description,
 #profile-city {
   font-size: 14px;
+  clear: left;
 }
 
 #favorite-stories {
