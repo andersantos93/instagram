@@ -14,11 +14,6 @@ svg {
   color: white;
 }
 
-nav {
-  width: 245px;
-  float: left;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -31,6 +26,7 @@ a {
   padding: 25px;
   gap: 30px;
   border-right: 1px solid #262626;
+  position: fixed;
 }
 
 #side-menu .option {
