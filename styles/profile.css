@@ -110,10 +110,6 @@ main {
   gap: 40px;
 }
 
-#favorite-stories .item {
-  cursor: pointer;
-}
-
 #favorite-stories .item img,
 #favorite-stories svg {
   width: 77px;
@@ -140,7 +136,6 @@ main {
   gap: 80px;
   padding: 20px;
   border-top: 1px solid #262626;
-  cursor: pointer;
 }
 
 #gallery-menu .item svg {

@@ -78,11 +78,7 @@ time {
 }
 
 .post .description {
-  margin-top: 5px;
-  font-size: 15px;
-}
-
-.post .description span:first-child {
+  margin-top: 7px;
   font-size: 15px;
 }
 
